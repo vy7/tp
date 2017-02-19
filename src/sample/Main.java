@@ -6,15 +6,10 @@ import javafx.scene.control.*;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import javafx.scene.paint.Color;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-import java.io.File;
-import java.net.URI;
-import java.net.URL;
 
 public class Main extends Application {
 
@@ -25,7 +20,6 @@ public class Main extends Application {
     GridPane grid = new GridPane();
 
     final Scene scene = new Scene(grid, 700, 300);
-    MediaPlayer mediaPlayer;
 
     @Override
     public void start(Stage window) {
